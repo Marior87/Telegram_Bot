@@ -24,7 +24,7 @@ Resultado:<br><br>
     Predicción: "goldfish, Carassius auratus"<br>
 
 
-Mapa de Atención:
+Mapa de Atención:<br>
 ![Mapa de Atención](assets/ejemplo_mapa_atencion.jpg)
 
 
