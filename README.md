@@ -3,9 +3,9 @@
 Este repo contiene el desarrollo de un bot para telegram que cuenta con dos funcionalidades: Clasificación de imágenes y Transferencia de Estilo. Utilizaremos la siguiente imagen como ejemplo:
 
 Imagen Ejemplo:
-
-<center><img src="assets/ejemplo.jpg" width=500px height=350px/></center>
-
+<p align="center">
+<img src="assets/ejemplo.jpg" width=500px height=350px/>
+</p>
 Los comandos para interactuar con el bot son:
 
 1. /clas
@@ -26,18 +26,18 @@ Resultado:<br><br>
 
 
 Mapa de Atención:<br>
-
+<p align="center">
 <img src="assets/ejemplo_mapa_atencion.jpg" width=500px height=350px/>
-
+</p>
 
 ### /style: 
 
 Inicia una conversación en donde se solicita una imagen y el bot devuelve la misma imagen estilizada tomando el estilo que se extrae del archivo 'estilo1.jpg' (Se puede utilizar otro archivo para obtener resultados diferentes).
 
 Imagen para Estilo:
-
+<p align="center">
 <img src="estilo1.jpg" width=500px height=350px/>
-
+</p>
 En este caso se utiliza un modelo preentrenado del TensorFlow Hub:
 
 https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/1
@@ -47,9 +47,9 @@ En la documentación de TensorFlow se muestra un tutorial para esto:
 https://www.tensorflow.org/tutorials/generative/style_transfer
 
 Resultado:
-
+<p align="center">
 <img src="assets/ejemplo_estilizado.jpg" width=500px height=350px/>
-
+</p>
 ## Configuración para uso:
 
 * Crear una carpeta de trabajo.
