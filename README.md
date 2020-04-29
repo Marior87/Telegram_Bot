@@ -3,7 +3,8 @@
 Este repo contiene el desarrollo de un bot para telegram que cuenta con dos funcionalidades: Clasificación de imágenes y Transferencia de Estilo. Utilizaremos la siguiente imagen como ejemplo:
 
 Imagen Ejemplo:
-![imagen ejemplo](assets/ejemplo.jpg "Imagen ejemplo")
+
+<center><img src="assets/ejemplo.jpg" width=500px height=350px/></center>
 
 Los comandos para interactuar con el bot son:
 
@@ -25,7 +26,8 @@ Resultado:<br><br>
 
 
 Mapa de Atención:<br>
-![Mapa de Atención](assets/ejemplo_mapa_atencion.jpg)
+
+<img src="assets/ejemplo_mapa_atencion.jpg" width=500px height=350px/>
 
 
 ### /style: 
@@ -33,7 +35,8 @@ Mapa de Atención:<br>
 Inicia una conversación en donde se solicita una imagen y el bot devuelve la misma imagen estilizada tomando el estilo que se extrae del archivo 'estilo1.jpg' (Se puede utilizar otro archivo para obtener resultados diferentes).
 
 Imagen para Estilo:
-![imagen para estilo](estilo1.jpg "Imagen para Estilo")
+
+<img src="estilo1.jpg" width=500px height=350px/>
 
 En este caso se utiliza un modelo preentrenado del TensorFlow Hub:
 
@@ -45,7 +48,7 @@ https://www.tensorflow.org/tutorials/generative/style_transfer
 
 Resultado:
 
-![Ejemplo Estilizado](assets/ejemplo_estilizado.jpg)
+<img src="assets/ejemplo_estilizado.jpg" width=500px height=350px/>
 
 ## Configuración para uso:
 
