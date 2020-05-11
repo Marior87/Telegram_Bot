@@ -50,6 +50,7 @@ Resultado:
 <p align="center">
 <img src="assets/ejemplo_estilizado.jpg" width=500px height=350px/>
 </p>
+
 ## Configuración para uso:
 
 * Crear una carpeta de trabajo.
@@ -58,7 +59,10 @@ Resultado:
 * Clonar este repositorio.
 * Obtener un token para un bot de telegram (yo usé al BotFather).
 * Crear la variable de entorno 'TGM_BOT_TEST' y darle como valor el token obtenido (puedes cambiar el nombre de la variable de entorno a utilizar en the_bot.py)
-* Ejecutar en la consola 'python the_bot.py'
+* Ejecutar en la consola:
+```
+python the_bot.py
+```
 
 Una vez realizados estos pasos (y si no hay errores), inicia una conversación en telegram con tu bot y empieza a interactuar utilizando los comandos /clas y /style en el chat.
 
